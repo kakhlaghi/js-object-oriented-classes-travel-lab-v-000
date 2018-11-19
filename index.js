@@ -13,15 +13,17 @@ class Driver {
   }
 }
 
-avenueToNumber(avenue){
-  return eastWest.index(avenue)
-}
+
 
 class Route  {
   constructor (beginningLocation, endingLocation){
     this.beginningLocation = beginningLocation;
     this.endingLocation = endingLocation;
   }
+  avenueToNumber(avenue){
+    return eastWest.index(avenue)
+  }
+  
   blocksTravelled(){
     let verticalDistance =
   }
