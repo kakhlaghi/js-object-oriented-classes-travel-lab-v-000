@@ -26,6 +26,7 @@ class Route  {
 
   blocksTravelled(){
     let verticalDistance = this.endingLocation - this.beginningLocation
+    let horizontalDistance =
   }
 
   estimatedTime(){
