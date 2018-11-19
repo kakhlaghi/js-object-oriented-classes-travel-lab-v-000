@@ -31,7 +31,9 @@ class Route  {
     return Math.abs(horizontalDistance) + Math.abs(verticalDistance);
   }
 
-  estimatedTime(peark){
-
+  estimatedTime(peak){
+    if (peak){
+      return
+    }
   }
 }
