@@ -1,7 +1,7 @@
 class Driver {
-  constructor (name, startDay){
+  constructor (name, startDate){
     this.name = name
-    this.startDay = new Date(startDay)
+    this.startDay = new Date(startDate)
   }
 
   yearsExperienceFromBeginningOf(year){
