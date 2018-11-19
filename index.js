@@ -14,7 +14,7 @@ class Driver {
 }
 
 avenueToNumber(avenue){
-
+  return eastWest.index()
 }
 
 class Route  {
