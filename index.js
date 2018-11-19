@@ -23,9 +23,9 @@ class Route  {
   avenueToNumber(avenue){
     return eastWest.index(avenue)
   }
-  
+
   blocksTravelled(){
-    let verticalDistance =
+    let verticalDistance = this.endingLocation - this.beginningLocation
   }
 
   estimatedTime(){
