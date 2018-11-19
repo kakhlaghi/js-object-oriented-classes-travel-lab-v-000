@@ -1,5 +1,5 @@
-class Driver (name, startDay){
-  constructor{
+class Driver {
+  constructor (name, startDay){
     this.name = name
     this.startDay = startDay
   }
