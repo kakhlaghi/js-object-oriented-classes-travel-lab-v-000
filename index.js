@@ -2,6 +2,6 @@ class Driver (name, startDay){
 
 }
 
-class Route {
+class Route () {
 
 }
