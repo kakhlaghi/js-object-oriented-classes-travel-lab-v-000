@@ -3,7 +3,7 @@ class Driver {
     this.name = name
     this.startDay = startDay
   }
-  
+
 }
 
 class Route (beginningLocation, endingLocation) {
