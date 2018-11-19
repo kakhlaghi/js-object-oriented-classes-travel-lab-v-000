@@ -29,7 +29,6 @@ class Route  {
     let horizontalDistance = this.avenueToNumber(this.endingLocation.horizontal) -
       this.avenueToNumber(this.beginningLocation.horizontal);
     return Math.abs(horizontalDistance) + Math.abs(verticalDistance);
-
   }
 
   estimatedTime(){
