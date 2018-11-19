@@ -27,7 +27,7 @@ class Route  {
   blocksTravelled(){
     let verticalDistance = this.endingLocation - this.beginningLocation
     let horizontalDistance = this.avenueToNumber(this.endingLocation.horizontal) -
-      this.avenueToInteger(this.beginningLocation.horizontal);
+      this.avenueToNumber(this.beginningLocation.horizontal);
   }
 
   estimatedTime(){
