@@ -1,4 +1,4 @@
-class Driver (name, startDay, ){
+class Driver (name, startDay){
 
 }
 
