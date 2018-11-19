@@ -21,7 +21,7 @@ class Route  {
     this.endingLocation = endingLocation;
   }
   avenueToNumber(avenue){
-    return eastWest.index(avenue)
+    return eastWest.indexOf(avenue)
   }
 
   blocksTravelled(){
