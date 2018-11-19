@@ -8,6 +8,6 @@ class Driver {
   }
 }
 
-class Route (beginningLocation, endingLocation) {
-  constructor ()
+class Route  {
+  constructor
 }
